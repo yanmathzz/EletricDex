@@ -6,7 +6,7 @@ var rl = readline.createInterface({
   output: process.stdout
 });
 
-const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // url da página solicitada
+  const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // url da página solicitada
 
 (async () => {
     const browser = 
@@ -21,8 +21,8 @@ const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // ur
       const nome = 
         Array.from(document.querySelectorAll('td'))                       // coleta todas as tags td onde obtem as informaçoes dos tipos do pokemon
 
-
       return nome.map(td => td.innerText)                                 // retorna um array com os tipos das tabelas 
+
     });
 
     rl.question("Qual pokemon você deseja pesquisar? ", function(busca) { // procura o pokemon que voce deseja saber 
