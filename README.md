@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/badge/license-MIT-green)](https://github.com/yanmathzz/pokemon-Scrapping/blob/master/LICENCE)
 
-# Sobre o porjeto 
+# Sobre o projeto 
 EletricDex é um programa criado com a intenção de auxiliar você a encotrar a tipagem do Pokemon que procura.
 
 ## Tecnologias Utilizadas
