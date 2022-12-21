@@ -27,7 +27,10 @@ var rl = readline.createInterface({
 
     rl.question("Qual pokemon você deseja pesquisar? ", function(busca) { // procura o pokemon que voce deseja saber 
 
-      for(let i = 0; i < data.length; i++){
+      for(
+        let i = 0; i < data.length; i++
+        ){
+          
         if(data[i] == busca){                                             // seleciona o tipo do pokemon que você solicitou
 
             console.log(
