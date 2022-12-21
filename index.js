@@ -10,9 +10,8 @@ var rl = readline.createInterface({
 
 (async () => {
     const browser = 
-      await puppeteer.launch(
-        { headless: true }
-        );                                                                // busca os dados da página
+      await puppeteer.launch({ headless: true });                         // busca os dados da página
+
     const page = 
       await browser.newPage();
         await page.goto(url);                                             // busca a url da página
@@ -30,11 +29,11 @@ var rl = readline.createInterface({
       for(
         let i = 0; i < data.length; i++
         ){
-          
+
         if(data[i] == busca){                                             // seleciona o tipo do pokemon que você solicitou
 
             console.log(
-              `O Pokemon ${busca} é do tipo${data[i+1]} `                 // sistem de resposta da busca 
+              `O Pokemon ${busca} é do tipo${data[i+1]} `
               )
             return;
         }
@@ -45,4 +44,5 @@ var rl = readline.createInterface({
 
   await page.waitForTimeout(3000);                                        // tempo de busca da informaçao solicitada 
   await browser.close();
+  
 })();
