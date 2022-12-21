@@ -8,16 +8,13 @@
     "start": "node ./index.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gabriel-Fernandes1917/BGC-Scraping.git"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Gabriel-Fernandes1917/BGC-Scraping/issues"
   },
-  "homepage": "https://github.com/Gabriel-Fernandes1917/BGC-Scraping#readme",
   "dependencies": {
     "prompt-sync": "^4.2.0",
     "puppeteer": "^19.4.1"
