@@ -34,7 +34,7 @@ var rl = readline.createInterface({
         if(data[i] == busca){                                             // seleciona o tipo do pokemon que você solicitou
 
             console.log(
-              `O Pokemon ${busca} é do tipo${data[i+1]} `
+              `O Pokemon ${busca} é do tipo${data[i+1]} `                 // sistem de resposta da busca 
               )
             return;
         }
