@@ -6,7 +6,7 @@ var rl = readline.createInterface({
   output: process.stdout
 });
 
-  const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // url da página solicitada
+const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // url da página solicitada
 
 (async () => {
     const browser = 
