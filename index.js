@@ -38,7 +38,7 @@ const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // ur
       if (dados[y] == pesquisarCap) { 
       // realiza a busca do tipo do pokemon que foi solicitado 
 
-        console.log(`O Pokemón que foi pedido: ${pesquisarCap} é do tipo${dados[y + 1]}.`);
+        console.log(`O Pokemón que foi pesquisado: ${pesquisarCap} é do tipo${dados[y + 1]}.`);
 
         return;
 
