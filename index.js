@@ -39,7 +39,9 @@ const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // ur
       // realiza a busca do tipo do pokemon que foi solicitado 
 
         console.log(`O Pokemón pesquisado ${pesquisarCap} é do tipo${dados[y + 1]}`);
+
         return;
+        
       }
     }
 
