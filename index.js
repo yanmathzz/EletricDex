@@ -12,10 +12,10 @@ const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // ur
   const navegador = await puppeteer.launch({ headless: true }); // busca os dados da página
 
   const pagina = await navegador.newPage();
-  await pagina.goto(url); // busca url da página
+    await pagina.goto(url); // busca url da página
 
   const data = await pagina.evaluate(() => {
-    const nome = Array.from(document.querySelectorAll("td")); // coleta todas as tags td onde obtem as informaçoes dos tipos do pokemon
+    const nome = Array.from(document.querySelectorAll("td")); // coleta todas as tags td, onde obtem as informaçoes dos tipos do pokemon
 
     return nome.map((td) => td.innerText); // retorna um array com os tipos das tabelas
   });
