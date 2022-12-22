@@ -29,6 +29,6 @@ Pré-requisitos: node
 
 3 - Aguarde o EletricDex fazer a busca do pokemon solicitado.
 
-![img](https://github.com/yanmathzz/EletricDex/blob/main/img/Resultados.png?raw=true)
+![img](https://github.com/yanmathzz/EletricDex/blob/main/img/resultado.png?raw=true)
 
 4 - E finalizado !!
