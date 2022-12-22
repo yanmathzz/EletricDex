@@ -11,6 +11,7 @@ EletricDex é um programa criado com a intenção de auxiliar você a encotrar a
 Neste projeto foi utilizado:
 
 Node version 19.4.1
+
 Puppeteer version  19.4.1
 
 ## Serviços Utilizados
