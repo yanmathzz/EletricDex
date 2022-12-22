@@ -10,12 +10,12 @@ EletricDex é um programa criado com a intenção de auxiliar você a encotrar a
 ## Tecnologias Utilizadas
 Neste projeto foi utilizado:
 
-- Node version 19.4.1
-- Puppeteer version  19.4.1
+Node version 19.4.1
+Puppeteer version  19.4.1
 
 ## Serviços Utilizados
 
-- Github
+Github
 
 # Como executar o projeto 
 Pré-requisitos: node
