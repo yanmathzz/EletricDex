@@ -20,15 +20,15 @@ Neste projeto foi utilizado:
 # Como executar o projeto 
 Pré-requisitos: node
 
-1 - Faza o dowloand do arquivo em formato zip, abar o terminal do arquivo e digite o comando node index.js.
+1 - Baixe o repositório, abra o terminal do arquivo e digite o comando npm run start.
 
-2 - Em seguida digite no terminal o nome do pokemon que deseja pesquisar (obs: digite a primeira letra maiúscula). 
+2 - Em seguida digite no terminal o nome do pokemon que deseja pesquisar. 
 
-![Homepage image](https://github.com/yanmathzz/pokemon-Scrapping/blob/master/img/Pergunta.png?raw=true)
+![Homepage image]()
 
 3 - Aguarde o EletricDex fazer a busca do pokemon solicitado.
 
 4 - E finalizado !!
 
-![Homepage image](https://github.com/yanmathzz/pokemon-Scrapping/blob/master/img/Resultados.png?raw=true)
+![Homepage image]()
 
