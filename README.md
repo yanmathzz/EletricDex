@@ -22,13 +22,12 @@ Pré-requisitos: node
 
 1 - Baixe o repositório, abra o terminal do arquivo e digite o comando npm run start.
 
-2 - Em seguida digite no terminal o nome do pokemon que deseja pesquisar. 
-
-![Homepage image]()
+2 - Em seguida digite no terminal o nome do pokemon que deseja pesquisar.
+![img](https://github.com/yanmathzz/EletricDex/blob/main/img/Pergunta.png?raw=true)
 
 3 - Aguarde o EletricDex fazer a busca do pokemon solicitado.
 
 4 - E finalizado !!
 
-![Homepage image]()
+![img](https://github.com/yanmathzz/EletricDex/blob/main/img/Resultados.png?raw=true)
 
