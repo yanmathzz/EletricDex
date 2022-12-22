@@ -18,13 +18,14 @@ const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // ur
     const tipagem = Array.from(document.querySelectorAll("td")); // coleta todas as tags td, onde obtem as informaçoes dos tipos do pokemon
 
     return tipagem.map((td) => td.innerText); // retorna um array com os tipos das tabelas
+
   });
 
   rl.question("Qual pokemon você deseja pesquisar na sua EletricDex? ", function (pesquisar) {
     // procura o pokemon que voce deseja saber
 
     pesquisar = pesquisar.toLowerCase();
-    
+
       const firstLetter = pesquisar.charAt(0);
     
       const firstLetterCap = firstLetter.toUpperCase();
@@ -33,11 +34,11 @@ const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // ur
 
       const pesquisarCap = firstLetterCap + remainingLetters;
 
-    for (let i = 0; i < dados.length; i++) {
-      if (dados[i] == pesquisarCap) {
+    for (let y = 0; y < dados.length; y++) {
+      if (dados[y] == pesquisarCap) {
         // seleciona o tipo do pokemon que você solicitou
 
-        console.log(`O Pokemón pesquisado ${pesquisarCap} é do tipo${dados[i + 1]}`);
+        console.log(`O Pokemón pesquisado ${pesquisarCap} é do tipo${dados[y + 1]}`);
         return;
       }
     }
