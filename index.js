@@ -8,7 +8,7 @@ var rl = readline.createInterface({
 
 const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // url da página solicitada
 
-(async () => {
+( async () => {
   const navegador = await puppeteer.launch({ headless: true }); // busca os dados da página
 
   const pagina = await navegador.newPage();
