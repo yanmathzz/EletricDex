@@ -1,11 +1,11 @@
 # EletricDex
 
+# Sobre o projeto 
+EletricDex é um programa criado com a intenção de auxiliar você a encotrar a tipagem do Pokemon que procura.
+
 ![Logo of the project](https://raw.githubusercontent.com/yanmathzz/EletricDex/main/img/pokedex.webp)
 
 [![NPM](https://img.shields.io/badge/license-MIT-green)](https://github.com/yanmathzz/pokemon-Scrapping/blob/master/LICENCE)
-
-# Sobre o projeto 
-EletricDex é um programa criado com a intenção de auxiliar você a encotrar a tipagem do Pokemon que procura.
 
 ## Tecnologias Utilizadas
 Neste projeto foi utilizado:
