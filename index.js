@@ -15,9 +15,9 @@ const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // ur
     await pagina.goto(url); // busca url da página
 
   const data = await pagina.evaluate(() => {
-    const nome = Array.from(document.querySelectorAll("td")); // coleta todas as tags td, onde obtem as informaçoes dos tipos do pokemon
+    const tipagem = Array.from(document.querySelectorAll("td")); // coleta todas as tags td, onde obtem as informaçoes dos tipos do pokemon
 
-    return nome.map((td) => td.innerText); // retorna um array com os tipos das tabelas
+    return tipagem.map((td) => td.innerText); // retorna um array com os tipos das tabelas
   });
 
   rl.question("Qual pokemon você deseja pesquisar na sua EletricDex? ", function (pesquisar) {
