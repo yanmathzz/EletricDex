@@ -5,7 +5,7 @@ EletricDex é um programa criado com a intenção de auxiliar você a encotrar a
 
 ![Logo of the project](https://raw.githubusercontent.com/yanmathzz/EletricDex/main/img/pokedex.webp)
 
-[![NPM](https://img.shields.io/badge/license-MIT-green)](https://github.com/yanmathzz/pokemon-Scrapping/blob/master/LICENCE)
+[![NPM](https://img.shields.io/badge/license-MIT-green)](https://github.com/yanmathzz/EletricDex/blob/main/LICENCE)
 
 ## Tecnologias Utilizadas
 Neste projeto foi utilizado:
