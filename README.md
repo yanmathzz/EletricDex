@@ -21,7 +21,7 @@ Github
 # Como executar o projeto 
 Pré-requisitos: node
 
-1 - Baixe o repositório e o download da biblioteca puppeteer, abra o terminal do arquivo e digite o comando npm i puppeteer para baixar a biblioteca puppeteer npm run start.
+1 - Baixe o repositório e o download da biblioteca puppeteer (npm i puppeteer), abra o terminal do arquivo e digite o comando npm run start.
 
 2 - Em seguida digite no terminal o nome do pokemon que deseja pesquisar.
 
