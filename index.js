@@ -17,7 +17,7 @@ const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // ur
   const dados = await pagina.evaluate(() => {
     const tipagem = Array.from(document.querySelectorAll("td")); // coleta todas as tags td, onde obtem as informaçoes dos tipos do pokemon
 
-    return tipagem.map((td) => td.innerText); // retorna um array com os tipos das tabelas
+    return tipagem.map((td) => td.innerText); // retorna um array com os tipos das tabelas 
 
   });
 
@@ -38,8 +38,8 @@ const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // ur
       if (dados[y] == pesquisarCap) { 
       // realiza a busca do tipo do pokemon que foi solicitado 
 
-        console.log(`O Pokemón que foi pesquisado ${pesquisarCap} é do tipo${dados[y + 1]}.`);
-
+        console.log(`O Pokemón que foi pesquisado ${pesquisarCap} é do tipo${dados[y + 1]}.`); 
+      
         return;
 
       }
