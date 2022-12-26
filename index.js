@@ -8,22 +8,21 @@ var rl = readline.createInterface({
 
 const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // url da página solicitada
 
-( async () => {
+(async () => {
   const navegador = await puppeteer.launch({ headless: true }); // busca os dados da página
 
   const pagina = await navegador.newPage();
-    await pagina.goto(url); // busca url da página
+  await pagina.goto(url); // busca url da página
 
   const dados = await pagina.evaluate(() => {
     const tipagem = Array.from(document.querySelectorAll("td")); // coleta todas as tags td, onde obtem as informaçoes dos tipos do pokemon
 
-    return tipagem.map((td) => td.innerText); // retorna um array com os tipos das tabelas 
-
+    return tipagem.map((td) => td.innerText); // retorna um array com os tipos das tabelas
   });
 
   function searchPokemon() {
     rl.question(
-      'Qual pokemon você deseja pesquisar na sua EletricDex? ',
+      "Qual pokemon você deseja pesquisar na sua EletricDex? ",
       function (pesquisar) {
         // procura o pokemon que voce deseja saber
 
@@ -44,19 +43,22 @@ const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // ur
             console.log(
               `O Pokemón que foi pesquisado ${pesquisarCap} é do tipo${
                 dados[y + 1]
-              }.`,
+              }.`
             );
           }
         }
 
-        rl.question('Deseja pesquisar outro pokemon? (s/n) ', function (resposta) {
-          if (resposta == 's') {
-            searchPokemon();
-          } else {
-            rl.close();
+        rl.question(
+          "Deseja pesquisar outro pokemon? (s/n) ",
+          function (resposta) {
+            if (resposta == "s") {
+              searchPokemon();
+            } else {
+              rl.close();
+            }
           }
-        });
-      },
+        );
+      }
     );
   }
 
