@@ -21,7 +21,7 @@ const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // ur
 
   });
 
- function searchPokemon() {
+  function searchPokemon() {
     rl.question(
       'Qual pokemon você deseja pesquisar na sua EletricDex? ',
       function (pesquisar) {
@@ -53,12 +53,14 @@ const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // ur
           if (resposta == 's') {
             searchPokemon();
           } else {
-            rl.close(); // fecha o terminal
+            rl.close();
           }
         });
       },
     );
   }
+
+  searchPokemon();
 
   await pagina.waitForTimeout(3000); // tempo de busca da informaçao solicitada
   await navegador.close(); // fecha o navegador
