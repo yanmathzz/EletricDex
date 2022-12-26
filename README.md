@@ -31,4 +31,12 @@ Pré-requisitos: node
 
 ![Posts](https://github.com/yanmathzz/EletricDex/blob/main/img/resultados.png?raw=true)
 
-4 - E finalizado !!
+4 -  Em seguida o EletricDex perguntara se deseja pesquisar outro pokemon, sem digitar sim (s) o EletricDex perguntara outro pokemon para pesquisar.
+
+![img](https://github.com/yanmathzz/EletricDex/blob/main/img/pergunta2.png?raw=true)
+
+5 - Se diser que nao (n) o programa se encerrará.
+
+![img](https://github.com/yanmathzz/EletricDex/blob/main/img/encerramento2.png?raw=true)
+
+6 - E finalizado !!
